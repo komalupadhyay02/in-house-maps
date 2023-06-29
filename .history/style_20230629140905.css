@@ -38,7 +38,9 @@ body{
     
   }
   .search button img {
-   display:inline-block;
+  
+  
+    display:flex;
    
 
 

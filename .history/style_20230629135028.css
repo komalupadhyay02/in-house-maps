@@ -32,14 +32,12 @@ body{
     border:#fff;
     border-radius: 10px;
     cursor: pointer;
-    margin-top: 15px;
-    margin-right: 10px;
-    font-size: 20px;
+    margin-top: 10px;
     
   }
   .search button img {
-   display:inline-block;
-   
+    background-color:#fff;
+    background-position: left;
 
 
   }
@@ -56,8 +54,8 @@ body{
   .photo-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 25vh 30vh 2vh;
-    grid-gap: 5px;
+    grid-template-rows: 30vh 30vh 10vh;
+    grid-gap: 10px;
   }
   
   .photo-grid img {

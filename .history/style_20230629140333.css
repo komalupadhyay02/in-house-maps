@@ -34,12 +34,12 @@ body{
     cursor: pointer;
     margin-top: 15px;
     margin-right: 10px;
-    font-size: 20px;
+    font-size: 1px;
     
   }
   .search button img {
-   display:inline-block;
-   
+    background-color:#fff;
+    background-position: left;
 
 
   }

@@ -1,9 +1,7 @@
-*{ margin:0;
-  padding:0;
-
-}
 body{
-   background-color:#ecf8e5;
+    margin:0;
+    padding:0;
+    background-color:#ecf8e5;
   }
   header {
     background-color:#bcc8b6;
@@ -32,14 +30,12 @@ body{
     border:#fff;
     border-radius: 10px;
     cursor: pointer;
-    margin-top: 15px;
-    margin-right: 10px;
-    font-size: 20px;
+    
     
   }
   .search button img {
-   display:inline-block;
-   
+    background-color:#fff;
+    background-position: left;
 
 
   }
@@ -56,8 +52,8 @@ body{
   .photo-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 25vh 30vh 2vh;
-    grid-gap: 5px;
+    grid-template-rows: 30vh 30vh 10vh;
+    grid-gap: 10px;
   }
   
   .photo-grid img {
@@ -69,7 +65,7 @@ body{
     float: left;
     width: 600px;
     padding: 20px;
-    background-color: #fbd7db;
+    background-color: #006400;
     margin:60px;
     height:300px;
 }

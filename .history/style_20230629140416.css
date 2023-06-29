@@ -38,8 +38,8 @@ body{
     
   }
   .search button img {
-   display:inline-block;
-   
+    background-color:#fff;
+    background-position: left;
 
 
   }
