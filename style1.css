@@ -1,0 +1,157 @@
+body{
+    margin:0;
+    padding:0;
+    background-color:#ecf8e5;
+  }
+  header {
+    background-color:#bcc8b6;
+    padding: 20px;
+    
+    
+  }
+  
+  nav {
+    display: flex;
+   
+    justify-content: space-between;
+    
+
+  }
+  
+  .logo img {
+    height: 60px;
+  }
+  
+
+  /* .search button {
+    padding: 6px 60px;
+    background-color:#fff; 
+    object-position:center;
+    border:#fff;
+    border-radius: 10px;
+    cursor: pointer;
+    
+    
+  }
+  .search button img {
+    background-color:#fff;
+    background-position: left;
+
+
+  } */
+  .flex{
+     display:flex;
+     flex-wrap: wrap;
+     justify-content: space-between;
+  }
+  .container{
+    width: 30%;
+    height: 100vh;
+    float: left;
+  }
+  div{
+height: 70px;
+/* box-shadow: 0px 3px 15px rgba(00,0,0.2); */
+
+  }
+  div tr{
+    margin-right: 30px;
+
+  }
+  div tr td{
+    display: inline-block;
+  }
+  div tr td a{
+    color: black;
+    display: block;
+padding: 0px 15px;
+line-height: 70px;
+font-size: 10px;
+/* background: #CCF1FF; */
+transition: .5s;
+  }
+  div tr tr{
+    position: absolute;
+    /* top: 150px; */
+    /* border-top: 3px solid#23dbdb; */
+    opacity: 0;
+    visibility: hidden;
+  }
+  div tr td:hover>tr{
+/* bottom: 100px; */
+opacity: 1;
+visibility: visible;
+transition: .3s linear;
+  }
+  div tr tr td{
+    width: 150px;
+    display: list-item;
+    position: relative;
+    /* border: 1px solid#042331; */
+    border-top: none;
+    /* top: -70px;
+    left: 150px; */
+
+  }
+  div tr tr td a{
+    line-height: 50px;
+  }
+  div tr tr tr{
+    border-top:none ;
+  }
+div tr tr tr td{
+top: -70px;
+    left: 150px;
+    position: relative;
+}
+.container1{
+    float:right;
+    width: 50%;
+}
+.search-container {
+  position: absolute;
+  top: 200px;
+  left: 40px;
+  z-index: 1000;
+}
+
+.dropdown {
+  position: relative;
+}
+
+.dropdown-input {
+  padding: 10px;
+  width: 200px;
+}
+
+.dropdown-list {
+  position: absolute;
+  background-color: white;
+  border: 1px solid #ccc;
+  width: 200px;
+  max-height: 150px;
+  overflow-y: auto;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.dropdown-list li {
+  padding: 5px;
+  cursor: pointer;
+}
+
+.dropdown-list li:hover {
+  background-color: #f2f2f2;
+}
+
+#search-btn {
+  padding: 10px 20px;
+}
+
+#map {
+  height: 500px;
+  width: 100%;
+  position: relative;
+}
+

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Navigation bar</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+   <nav>
+    <div class="logo">
+      <img src="Gla new logo.jpeg" alt="Logo">
+  
+    <!-- <div class="search">
+      
+      <button type="button">
+        <img width="20" height="20" src="search.jpeg" alt="search">
+      </button>
+    </div> -->
+   </nav>
+</div>
+</header>
+<!-- <input type="text" name="" id="myInput" placeholder="search" > -->
+<div class="search-container">
+    <div class="dropdown">
+      <input type="text" id="start-input" class="dropdown-input" placeholder="Starting Point">
+      <ul id="start-dropdown" class="dropdown-list"></ul>
+    </div>
+    <div class="dropdown">
+      <input type="text" id="end-input" class="dropdown-input" placeholder="End Point">
+      <ul id="end-dropdown" class="dropdown-list"></ul>
+    </div>
+    <button id="search-btn">Search</button>
+  </div>
+
+  <div id="map"></div>
+  <script src="app.js"></script>
+</body>
+</html>
